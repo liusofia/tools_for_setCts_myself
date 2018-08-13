@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">setCTS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="showTips_text">"I appreciate that you use "setCTS.apk"  ,If any !~  setCTS to set ""Settings"" option as follow : "</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.setcts"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+    <!-- 允许程序读取或写入系统设置 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 允许程序读写系统安全敏感的设置项 -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- 允许程序修改当前应用配置如本地化、开启关闭蓝牙wifi等 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- 允许程序写入外部存储，如SD CARD -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 允许程序安装应用 -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <!-- <uses-permission android:name="android.permission.WRITE_CONTACTS" /> -->
+    <application
+        android:configChanges="locale"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.setcts.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
