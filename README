@@ -1,0 +1,8 @@
+如何快速配置 Android Device Configuration,一个应用帮您解放双手--- setCTS.apk.
+setCTS 功能实现如下:
+1:Location 选项 -> on
+2:WiFi 选项 -> on
+3:USB Debugging -> on
+4:Allow mock locations -> on(only in Android 5.x and 4.4.x)
+5:Stay awake -> on
+6:拷贝并安装 CtsDeviceAdmin.apk
